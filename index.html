@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Акция Faberlic</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="icon" href="img/favi2.ico" type="image/vnd.microsoft.icon">
+  </head>
+  <body>
+    <main>
+      <section class="first-section">
+        <div class="center-container"><a class="ring" href="#f_surname"></a><a class="logo" href="#"><img src="img/logo.png" alt=""></a><img class="action-pic-desc" src="img/stuff.png" alt="">
+          <div class="call-to-action-text">
+            <p>Получите подарок</p>
+            <p>за первую покупку</p>
+            <p>с 22 июля по 11 августа</p>
+          </div><img class="action-pic-mob" src="img/stuff.png" alt="">
+          <p class="prezent-text">Гидрофильное масло</br>для очищения</br>+ активный крем для лица</br>+ повязка на голову</br></p>
+        </div>
+      </section>
+      <section class="second-form-section">
+        <div class="row slide2 right">
+          <form class="form" id="id_form" method="post" action="" enctype="multipart/form-data">
+            <div class="desc form">
+              <h2 class="reg-title">Регистрация<br>личного кабинета</h2>
+              <input type="hidden" name="send" value="1">
+              <input type="hidden" name="sex" value="f">
+              <input type="hidden" name="page" value="&lt;?=$page?&gt;">
+              <input type="hidden" name="utm_source" value="&lt;?=$utm_source?&gt;">
+              <input type="hidden" name="utm_medium" value="&lt;?=$utm_medium?&gt;">
+              <input type="hidden" name="utm_campaign" value="&lt;?=$utm_campaign?&gt;">
+              <input type="hidden" name="utm_content" value="&lt;?=$utm_content?&gt;">
+              <input type="hidden" name="url_postback" value="&lt;?=$url_postback?&gt;">
+              <input type="hidden" name="postback_s1" value="&lt;?=$postback_s1?&gt;">
+              <input type="hidden" name="postback_s2" value="&lt;?=$postback_s2?&gt;">
+              <input type="hidden" name="postback_s3" value="&lt;?=$postback_s3?&gt;">
+              <input id="day" type="hidden" name="day" value="">
+              <input id="month" type="hidden" name="month" value="">
+              <input id="year" type="hidden" name="year" value="">
+              <div class="form_row surname">
+                <label for="f_surname">Фамилия</label>
+                <input class="form-control" id="f_surname" name="surname" type="text" value="" placeholder="Фамилия">
+              </div>
+              <div class="form_row name">
+                <label for="f_name">Имя</label>
+                <input class="form-control" id="f_name" name="name" type="text" value="" placeholder="Имя">
+              </div>
+              <div class="form_row phone">
+                <label for="f_phone">Ваш телефон с кодом страны</label>
+                <input class="form-control" id="f_phone" name="phone" type="tel" value="" placeholder="+7 (XXX) XXX-XX-XX">
+              </div>
+              <div class="form_row email">
+                <label for="f_email">Email</label>
+                <input class="form-control" id="f_email" name="email" type="email" value="" placeholder="name@domen.ru">
+              </div>
+              <div class="birthday form_row">
+                <label for="f_birthday">Дата рождения</label>
+                <input class="form-control" id="f_birthday" name="birthday" type="tel" value="" placeholder="07.11.1990">
+              </div>
+              <div class="other form_row"></div>
+              <div class="form_btn">
+                <button class="btn send_ajax">Получить подарок</button>
+              </div>
+            </div>
+            <div class="desc sms" id="sms">
+              <div class="form_row sms_input">
+                <label for="sms_code">Введите код из СМС</label>
+                <input class="form-control" id="sms_code" name="code" type="text" value="" placeholder="Введите сюда код из СМС">
+              </div>
+              <div class="other_sms form_row"></div>
+              <div class="form_row">
+                <div class="sms_timer"></div>
+                <div class="form_btn">
+                  <button class="btn send_ajax">Отправить</button>
+                </div>
+                <p class="result"></p>
+              </div>
+            </div>
+            <div class="desc">
+              <div class="bottom-level conditions-header conditions-header_200"><a target="_blank" href="https://faberlic.com/index2.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=414" title="Согласие на обработку персональных данных">Согласие на обработку персональных данных</a><br>Согласие на обработку персональных данных</a><br>Нажимая кнопку «Подтвердить» Вы подтверждаете, что даете согласие на обработку своих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных».</div>
+              <div class="bottom-level conditions-body conditions-body_200">Регистрируясь Вы соглашаетесь с условиями &#032<a target="_blank" href="https://faberlic.com/index2.php?option=com_content&amp;view=article&amp;id=2699" title="Условия соглашения">соглашения</a>.<br><br>Нажимая на кнопку «Подтвердить», я соглашаюсь с условиями&#032<a href="https://faberlic.com/index2.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=1039">Публичной оферты</a>.</div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="steps">
+        <div class="steps-container">
+          <h2 class="steps-title">Условия акции</h2>
+          <div class="steps-item">
+            <p class="item-title">зарегистрируйся</p>
+            <p class="item-description">На сайте faberlic.com <br>c 22.07 по 11.08.2019</p>
+          </div>
+          <div class="steps-item">
+            <p class="item-title">оплати заказ</p>
+            <p class="item-description">На сумму от 1699 р. <br> в период регистрации</p>
+          </div>
+          <div class="steps-item">
+            <p class="item-title">получить в подарок</p>
+            <p class="item-description">Гидрофильное масло <br>для очищения iSeul (арт.044),<br>Активный крем для лица <br>iSeul (арт.0227) и повязку <br>на голову (арт.11575) <br>вместе с заказом <br>с 12 августа по 1 сентября</p>
+            <div class="clear"></div>
+          </div><a class="steps-link" href="#id_form">Регистрация</a>
+        </div>
+      </section>
+    </main>
+    <script src="js/jQuery3.3.1.js"></script>
+  </body>
+</html>
